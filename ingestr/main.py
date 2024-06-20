@@ -25,6 +25,8 @@ app = typer.Typer(
 console = Console()
 print = console.print
 
+print("[bold green]StockZoomAi's Version of Ingestr![/bold green]")
+
 DATE_FORMATS = [
     "%Y-%m-%d",
     "%Y-%m-%dT%H:%M:%S",
